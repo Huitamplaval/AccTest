@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/row_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="5dip" >
+
+        <TextView
+            android:id="@+id/value_timer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:text="timer: -" >
+
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_x"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip" >
+
+        <TextView
+            android:id="@+id/value_x"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"  
+            android:layout_marginLeft="5dip"          
+            android:layout_weight="1"
+            android:text="axisX: -" >
+
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_y"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip" >
+
+        <TextView
+            android:id="@+id/value_y"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:text="axisY: -" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_z"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip" >
+
+        <TextView
+            android:id="@+id/value_z"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:text="axisY: -" >
+        </TextView>
+    </TableRow>
+	
+    <TableRow
+        android:id="@+id/row_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip" >
+
+        <TextView
+            android:id="@+id/value_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:text="id: -" >
+        </TextView>
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/TableRowBtnServ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/button_startService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Start service" >
+
+            </Button>
+
+            <Button
+                android:id="@+id/button_stopService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Stop service" >
+
+            </Button>
+        </LinearLayout>
+    </TableRow>      
+	
+    <TableRow
+        android:id="@+id/TableRowBtnShow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <Button
+                android:id="@+id/button_show"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Show data in log" >
+            </Button>
+        </LinearLayout>
+    </TableRow>
+    
+</TableLayout>
